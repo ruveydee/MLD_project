@@ -34,8 +34,6 @@ st.write(df.describe())
 
 # Loading the models to make predictions
 linear_model = pickle.load(open("final_linear_pipe_model", "rb"))
-ridge_model = pickle.load(open("final_ridge_model", "rb"))
-lasso_model = pickle.load(open("final_lasso_model", "rb"))
 
 
 # User input variables that will be used on predictions
